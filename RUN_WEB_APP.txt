@@ -1,0 +1,12 @@
+BROWSER VERSION - WINDOWS / VS CODE
+
+1. Open this project folder in VS Code.
+2. In the terminal run:
+   py -m pip install -r requirements.txt
+3. Start the browser app:
+   py webapp.py
+4. Open Chrome and visit:
+   http://127.0.0.1:5000
+5. Keep the terminal open while using the website. Press Ctrl+C in the terminal to stop it.
+
+The original terminal app is unchanged. To run it, use: py main.py

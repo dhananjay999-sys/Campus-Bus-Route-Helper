@@ -1,0 +1,9 @@
+route_id,name,stops,start_time,end_time,interval_min,capacity,status
+R101,Good Row One,Main Gate|Canteen,07:00,20:00,15,40,Active
+R102,Bad Time,Main Gate|Canteen,25:99,20:00,15,40,Active
+R103,Bad Interval,Main Gate|Canteen,07:00,20:00,abc,40,Active
+R104,One Stop Only,Main Gate,07:00,20:00,15,40,Active
+,Blank ID,Main Gate|Canteen,07:00,20:00,15,40,Active
+R1,Duplicate of R1,Main Gate|Canteen,07:00,20:00,15,40,Active
+R105,Backwards Hours,Main Gate|Canteen,20:00,07:00,15,40,Active
+R106,Another Good One,Back Gate|Medical Centre|Canteen,08:00,18:00,20,35,delayed

@@ -1,0 +1,691 @@
+{
+  "version": 1,
+  "routes": [
+    {
+      "route_id": "R1",
+      "name": "Main Gate Shuttle",
+      "stops": [
+        "Main Gate",
+        "Admin Block",
+        "Central Library",
+        "Engineering Block"
+      ],
+      "start_time": "06:30",
+      "end_time": "21:30",
+      "interval_min": 10,
+      "capacity": 40,
+      "status": "Active"
+    },
+    {
+      "route_id": "R2",
+      "name": "Hostel Loop",
+      "stops": [
+        "Boys Hostel A",
+        "Boys Hostel B",
+        "Girls Hostel",
+        "Canteen",
+        "Boys Hostel A"
+      ],
+      "start_time": "07:00",
+      "end_time": "22:00",
+      "interval_min": 15,
+      "capacity": 30,
+      "status": "Active"
+    },
+    {
+      "route_id": "R3",
+      "name": "Metro Connector",
+      "stops": [
+        "Metro Station",
+        "Main Gate",
+        "Admin Block"
+      ],
+      "start_time": "06:00",
+      "end_time": "23:00",
+      "interval_min": 20,
+      "capacity": 50,
+      "status": "Delayed"
+    },
+    {
+      "route_id": "R4",
+      "name": "Night Safety Ride",
+      "stops": [
+        "Central Library",
+        "Girls Hostel",
+        "Boys Hostel A"
+      ],
+      "start_time": "21:00",
+      "end_time": "23:30",
+      "interval_min": 30,
+      "capacity": 12,
+      "status": "Active"
+    },
+    {
+      "route_id": "R5",
+      "name": "Sports Special",
+      "stops": [
+        "Sports Complex",
+        "Canteen"
+      ],
+      "start_time": "16:00",
+      "end_time": "18:00",
+      "interval_min": 60,
+      "capacity": 25,
+      "status": "Suspended"
+    },
+    {
+      "route_id": "R6",
+      "name": "Ultra Frequent",
+      "stops": [
+        "Main Gate",
+        "Metro Station"
+      ],
+      "start_time": "08:00",
+      "end_time": "10:00",
+      "interval_min": 1,
+      "capacity": 120,
+      "status": "Active"
+    },
+    {
+      "route_id": "R7",
+      "name": "Sunday Skeleton",
+      "stops": [
+        "Back Gate",
+        "Bus Depot"
+      ],
+      "start_time": "09:00",
+      "end_time": "17:00",
+      "interval_min": 120,
+      "capacity": 10,
+      "status": "Active"
+    },
+    {
+      "route_id": "R8",
+      "name": "Grand Campus Tour",
+      "stops": [
+        "Main Gate",
+        "Admin Block",
+        "Central Library",
+        "Engineering Block",
+        "Science Complex",
+        "Boys Hostel A",
+        "Boys Hostel B",
+        "Girls Hostel",
+        "Sports Complex",
+        "Canteen",
+        "Medical Centre",
+        "Auditorium",
+        "Faculty Quarters",
+        "Parking Lot 2",
+        "Metro Station",
+        "Bus Depot",
+        "Research Park",
+        "Student Activity Centre",
+        "Pharmacy Block",
+        "Back Gate"
+      ],
+      "start_time": "09:00",
+      "end_time": "18:00",
+      "interval_min": 45,
+      "capacity": 60,
+      "status": "Active"
+    },
+    {
+      "route_id": "R9",
+      "name": "Science Complex to Boys Hostel A",
+      "stops": [
+        "Science Complex",
+        "Student Activity Centre",
+        "Boys Hostel A"
+      ],
+      "start_time": "07:45",
+      "end_time": "19:00",
+      "interval_min": 30,
+      "capacity": 30,
+      "status": "Active"
+    },
+    {
+      "route_id": "R10",
+      "name": "Boys Hostel A to Research Park",
+      "stops": [
+        "Boys Hostel A",
+        "Science Complex",
+        "Boys Hostel B",
+        "Student Activity Centre",
+        "Main Gate",
+        "Research Park"
+      ],
+      "start_time": "07:00",
+      "end_time": "17:00",
+      "interval_min": 30,
+      "capacity": 40,
+      "status": "Active"
+    },
+    {
+      "route_id": "R11",
+      "name": "Boys Hostel A to Sports Complex",
+      "stops": [
+        "Boys Hostel A",
+        "Research Park",
+        "Pharmacy Block",
+        "Sports Complex"
+      ],
+      "start_time": "07:15",
+      "end_time": "22:00",
+      "interval_min": 15,
+      "capacity": 20,
+      "status": "Suspended"
+    },
+    {
+      "route_id": "R12",
+      "name": "Sports Complex to Engineering Block",
+      "stops": [
+        "Sports Complex",
+        "Central Library",
+        "Research Park",
+        "Back Gate",
+        "Engineering Block"
+      ],
+      "start_time": "09:15",
+      "end_time": "19:00",
+      "interval_min": 25,
+      "capacity": 20,
+      "status": "Active"
+    },
+    {
+      "route_id": "R13",
+      "name": "Auditorium to Metro Station",
+      "stops": [
+        "Auditorium",
+        "Boys Hostel A",
+        "Faculty Quarters",
+        "Sports Complex",
+        "Student Activity Centre",
+        "Metro Station"
+      ],
+      "start_time": "07:15",
+      "end_time": "19:00",
+      "interval_min": 20,
+      "capacity": 50,
+      "status": "Active"
+    },
+    {
+      "route_id": "R14",
+      "name": "Student Activity Centre Express",
+      "stops": [
+        "Student Activity Centre",
+        "Parking Lot 2",
+        "Main Gate",
+        "Girls Hostel",
+        "Boys Hostel B",
+        "Back Gate",
+        "Boys Hostel A",
+        "Pharmacy Block"
+      ],
+      "start_time": "09:45",
+      "end_time": "17:00",
+      "interval_min": 12,
+      "capacity": 60,
+      "status": "Active"
+    },
+    {
+      "route_id": "R15",
+      "name": "Student Activity Centre Express",
+      "stops": [
+        "Student Activity Centre",
+        "Metro Station",
+        "Parking Lot 2",
+        "Boys Hostel A"
+      ],
+      "start_time": "09:45",
+      "end_time": "19:00",
+      "interval_min": 20,
+      "capacity": 45,
+      "status": "Active"
+    },
+    {
+      "route_id": "R16",
+      "name": "Main Gate to Pharmacy Block",
+      "stops": [
+        "Main Gate",
+        "Parking Lot 2",
+        "Pharmacy Block"
+      ],
+      "start_time": "08:15",
+      "end_time": "22:00",
+      "interval_min": 8,
+      "capacity": 60,
+      "status": "Suspended"
+    },
+    {
+      "route_id": "R17",
+      "name": "Auditorium to Boys Hostel B",
+      "stops": [
+        "Auditorium",
+        "Central Library",
+        "Girls Hostel",
+        "Faculty Quarters",
+        "Boys Hostel B"
+      ],
+      "start_time": "06:00",
+      "end_time": "19:00",
+      "interval_min": 20,
+      "capacity": 50,
+      "status": "Active"
+    },
+    {
+      "route_id": "R18",
+      "name": "Central Library to Girls Hostel",
+      "stops": [
+        "Central Library",
+        "Science Complex",
+        "Boys Hostel B",
+        "Boys Hostel A",
+        "Back Gate",
+        "Girls Hostel"
+      ],
+      "start_time": "08:45",
+      "end_time": "22:00",
+      "interval_min": 30,
+      "capacity": 45,
+      "status": "Delayed"
+    },
+    {
+      "route_id": "R19",
+      "name": "Medical Centre to Research Park",
+      "stops": [
+        "Medical Centre",
+        "Girls Hostel",
+        "Research Park"
+      ],
+      "start_time": "08:00",
+      "end_time": "21:00",
+      "interval_min": 25,
+      "capacity": 20,
+      "status": "Active"
+    },
+    {
+      "route_id": "R20",
+      "name": "Canteen to Boys Hostel B",
+      "stops": [
+        "Canteen",
+        "Faculty Quarters",
+        "Metro Station",
+        "Science Complex",
+        "Central Library",
+        "Boys Hostel B"
+      ],
+      "start_time": "07:15",
+      "end_time": "17:00",
+      "interval_min": 20,
+      "capacity": 45,
+      "status": "Delayed"
+    },
+    {
+      "route_id": "R21",
+      "name": "Boys Hostel B to Engineering Block",
+      "stops": [
+        "Boys Hostel B",
+        "Main Gate",
+        "Science Complex",
+        "Bus Depot",
+        "Pharmacy Block",
+        "Girls Hostel",
+        "Research Park",
+        "Engineering Block"
+      ],
+      "start_time": "06:45",
+      "end_time": "17:00",
+      "interval_min": 8,
+      "capacity": 20,
+      "status": "Active"
+    },
+    {
+      "route_id": "R22",
+      "name": "Bus Depot to Auditorium",
+      "stops": [
+        "Bus Depot",
+        "Medical Centre",
+        "Pharmacy Block",
+        "Faculty Quarters",
+        "Auditorium"
+      ],
+      "start_time": "07:30",
+      "end_time": "17:00",
+      "interval_min": 15,
+      "capacity": 20,
+      "status": "Active"
+    },
+    {
+      "route_id": "R23",
+      "name": "Engineering Block to Pharmacy Block",
+      "stops": [
+        "Engineering Block",
+        "Back Gate",
+        "Auditorium",
+        "Central Library",
+        "Research Park",
+        "Canteen",
+        "Pharmacy Block"
+      ],
+      "start_time": "07:45",
+      "end_time": "21:00",
+      "interval_min": 30,
+      "capacity": 60,
+      "status": "Delayed"
+    },
+    {
+      "route_id": "R24",
+      "name": "Research Park to Engineering Block",
+      "stops": [
+        "Research Park",
+        "Boys Hostel A",
+        "Girls Hostel",
+        "Auditorium",
+        "Faculty Quarters",
+        "Canteen",
+        "Science Complex",
+        "Engineering Block"
+      ],
+      "start_time": "09:30",
+      "end_time": "17:00",
+      "interval_min": 40,
+      "capacity": 50,
+      "status": "Active"
+    },
+    {
+      "route_id": "R25",
+      "name": "Canteen to Science Complex",
+      "stops": [
+        "Canteen",
+        "Sports Complex",
+        "Auditorium",
+        "Research Park",
+        "Science Complex"
+      ],
+      "start_time": "09:00",
+      "end_time": "21:00",
+      "interval_min": 25,
+      "capacity": 60,
+      "status": "Delayed"
+    },
+    {
+      "route_id": "R26",
+      "name": "Medical Centre to Research Park",
+      "stops": [
+        "Medical Centre",
+        "Pharmacy Block",
+        "Faculty Quarters",
+        "Boys Hostel A",
+        "Back Gate",
+        "Sports Complex",
+        "Central Library",
+        "Research Park"
+      ],
+      "start_time": "09:45",
+      "end_time": "17:00",
+      "interval_min": 8,
+      "capacity": 20,
+      "status": "Active"
+    },
+    {
+      "route_id": "R27",
+      "name": "Engineering Block to Science Complex",
+      "stops": [
+        "Engineering Block",
+        "Bus Depot",
+        "Canteen",
+        "Sports Complex",
+        "Research Park",
+        "Boys Hostel B",
+        "Science Complex"
+      ],
+      "start_time": "06:00",
+      "end_time": "22:00",
+      "interval_min": 40,
+      "capacity": 30,
+      "status": "Suspended"
+    },
+    {
+      "route_id": "R28",
+      "name": "Canteen to Faculty Quarters",
+      "stops": [
+        "Canteen",
+        "Medical Centre",
+        "Research Park",
+        "Girls Hostel",
+        "Metro Station",
+        "Faculty Quarters"
+      ],
+      "start_time": "07:30",
+      "end_time": "22:00",
+      "interval_min": 30,
+      "capacity": 20,
+      "status": "Active"
+    },
+    {
+      "route_id": "R29",
+      "name": "Bus Depot to Admin Block",
+      "stops": [
+        "Bus Depot",
+        "Faculty Quarters",
+        "Student Activity Centre",
+        "Sports Complex",
+        "Boys Hostel B",
+        "Admin Block"
+      ],
+      "start_time": "06:45",
+      "end_time": "22:00",
+      "interval_min": 15,
+      "capacity": 30,
+      "status": "Active"
+    },
+    {
+      "route_id": "R30",
+      "name": "Sports Complex to Girls Hostel",
+      "stops": [
+        "Sports Complex",
+        "Back Gate",
+        "Science Complex",
+        "Girls Hostel"
+      ],
+      "start_time": "06:15",
+      "end_time": "21:00",
+      "interval_min": 12,
+      "capacity": 30,
+      "status": "Suspended"
+    },
+    {
+      "route_id": "R31",
+      "name": "Faculty Quarters to Pharmacy Block",
+      "stops": [
+        "Faculty Quarters",
+        "Parking Lot 2",
+        "Medical Centre",
+        "Girls Hostel",
+        "Central Library",
+        "Pharmacy Block"
+      ],
+      "start_time": "08:45",
+      "end_time": "21:00",
+      "interval_min": 8,
+      "capacity": 40,
+      "status": "Active"
+    },
+    {
+      "route_id": "R32",
+      "name": "Faculty Quarters to Boys Hostel A",
+      "stops": [
+        "Faculty Quarters",
+        "Sports Complex",
+        "Boys Hostel A"
+      ],
+      "start_time": "06:30",
+      "end_time": "19:00",
+      "interval_min": 40,
+      "capacity": 60,
+      "status": "Active"
+    },
+    {
+      "route_id": "R33",
+      "name": "Girls Hostel to Science Complex",
+      "stops": [
+        "Girls Hostel",
+        "Main Gate",
+        "Science Complex"
+      ],
+      "start_time": "07:30",
+      "end_time": "19:00",
+      "interval_min": 30,
+      "capacity": 40,
+      "status": "Active"
+    },
+    {
+      "route_id": "R34",
+      "name": "Student Activity Centre Express",
+      "stops": [
+        "Student Activity Centre",
+        "Girls Hostel",
+        "Engineering Block"
+      ],
+      "start_time": "07:30",
+      "end_time": "17:00",
+      "interval_min": 30,
+      "capacity": 20,
+      "status": "Delayed"
+    },
+    {
+      "route_id": "R35",
+      "name": "Canteen to Research Park",
+      "stops": [
+        "Canteen",
+        "Sports Complex",
+        "Research Park"
+      ],
+      "start_time": "08:45",
+      "end_time": "22:00",
+      "interval_min": 20,
+      "capacity": 60,
+      "status": "Active"
+    },
+    {
+      "route_id": "R36",
+      "name": "Bus Depot to Main Gate",
+      "stops": [
+        "Bus Depot",
+        "Science Complex",
+        "Sports Complex",
+        "Central Library",
+        "Medical Centre",
+        "Pharmacy Block",
+        "Main Gate"
+      ],
+      "start_time": "06:00",
+      "end_time": "17:00",
+      "interval_min": 12,
+      "capacity": 45,
+      "status": "Active"
+    },
+    {
+      "route_id": "R37",
+      "name": "Metro Station to Boys Hostel B",
+      "stops": [
+        "Metro Station",
+        "Canteen",
+        "Boys Hostel B"
+      ],
+      "start_time": "06:30",
+      "end_time": "22:00",
+      "interval_min": 15,
+      "capacity": 40,
+      "status": "Active"
+    },
+    {
+      "route_id": "R38",
+      "name": "Auditorium to Research Park",
+      "stops": [
+        "Auditorium",
+        "Boys Hostel B",
+        "Engineering Block",
+        "Medical Centre",
+        "Research Park"
+      ],
+      "start_time": "06:00",
+      "end_time": "17:00",
+      "interval_min": 8,
+      "capacity": 50,
+      "status": "Active"
+    },
+    {
+      "route_id": "R39",
+      "name": "Student Activity Centre Express",
+      "stops": [
+        "Student Activity Centre",
+        "Boys Hostel A",
+        "Faculty Quarters",
+        "Research Park",
+        "Central Library",
+        "Main Gate",
+        "Science Complex",
+        "Medical Centre"
+      ],
+      "start_time": "09:45",
+      "end_time": "22:00",
+      "interval_min": 15,
+      "capacity": 20,
+      "status": "Active"
+    },
+    {
+      "route_id": "R40",
+      "name": "Auditorium to Faculty Quarters",
+      "stops": [
+        "Auditorium",
+        "Science Complex",
+        "Faculty Quarters"
+      ],
+      "start_time": "08:00",
+      "end_time": "17:00",
+      "interval_min": 10,
+      "capacity": 20,
+      "status": "Delayed"
+    },
+    {
+      "route_id": "R41",
+      "name": "Science Complex to Bus Depot",
+      "stops": [
+        "Science Complex",
+        "Canteen",
+        "Engineering Block",
+        "Research Park",
+        "Girls Hostel",
+        "Medical Centre",
+        "Boys Hostel B",
+        "Bus Depot"
+      ],
+      "start_time": "09:30",
+      "end_time": "17:00",
+      "interval_min": 12,
+      "capacity": 40,
+      "status": "Suspended"
+    },
+    {
+      "route_id": "R42",
+      "name": "Boys Hostel B to Admin Block",
+      "stops": [
+        "Boys Hostel B",
+        "Sports Complex",
+        "Parking Lot 2",
+        "Science Complex",
+        "Main Gate",
+        "Engineering Block",
+        "Research Park",
+        "Admin Block"
+      ],
+      "start_time": "08:00",
+      "end_time": "21:00",
+      "interval_min": 20,
+      "capacity": 40,
+      "status": "Active"
+    }
+  ]
+}

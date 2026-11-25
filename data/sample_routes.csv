@@ -1,0 +1,43 @@
+route_id,name,stops,start_time,end_time,interval_min,capacity,status
+R1,Main Gate Shuttle,Main Gate|Admin Block|Central Library|Engineering Block,06:30,21:30,10,40,Active
+R2,Hostel Loop,Boys Hostel A|Boys Hostel B|Girls Hostel|Canteen|Boys Hostel A,07:00,22:00,15,30,Active
+R3,Metro Connector,Metro Station|Main Gate|Admin Block,06:00,23:00,20,50,Delayed
+R4,Night Safety Ride,Central Library|Girls Hostel|Boys Hostel A,21:00,23:30,30,12,Active
+R5,Sports Special,Sports Complex|Canteen,16:00,18:00,60,25,Suspended
+R6,Ultra Frequent,Main Gate|Metro Station,08:00,10:00,1,120,Active
+R7,Sunday Skeleton,Back Gate|Bus Depot,09:00,17:00,120,10,Active
+R8,Grand Campus Tour,Main Gate|Admin Block|Central Library|Engineering Block|Science Complex|Boys Hostel A|Boys Hostel B|Girls Hostel|Sports Complex|Canteen|Medical Centre|Auditorium|Faculty Quarters|Parking Lot 2|Metro Station|Bus Depot|Research Park|Student Activity Centre|Pharmacy Block|Back Gate,09:00,18:00,45,60,Active
+R9,Science Complex to Boys Hostel A,Science Complex|Student Activity Centre|Boys Hostel A,07:45,19:00,30,30,Active
+R10,Boys Hostel A to Research Park,Boys Hostel A|Science Complex|Boys Hostel B|Student Activity Centre|Main Gate|Research Park,07:00,17:00,30,40,Active
+R11,Boys Hostel A to Sports Complex,Boys Hostel A|Research Park|Pharmacy Block|Sports Complex,07:15,22:00,15,20,Suspended
+R12,Sports Complex to Engineering Block,Sports Complex|Central Library|Research Park|Back Gate|Engineering Block,09:15,19:00,25,20,Active
+R13,Auditorium to Metro Station,Auditorium|Boys Hostel A|Faculty Quarters|Sports Complex|Student Activity Centre|Metro Station,07:15,19:00,20,50,Active
+R14,Student Activity Centre Express,Student Activity Centre|Parking Lot 2|Main Gate|Girls Hostel|Boys Hostel B|Back Gate|Boys Hostel A|Pharmacy Block,09:45,17:00,12,60,Active
+R15,Student Activity Centre Express,Student Activity Centre|Metro Station|Parking Lot 2|Boys Hostel A,09:45,19:00,20,45,Active
+R16,Main Gate to Pharmacy Block,Main Gate|Parking Lot 2|Pharmacy Block,08:15,22:00,8,60,Suspended
+R17,Auditorium to Boys Hostel B,Auditorium|Central Library|Girls Hostel|Faculty Quarters|Boys Hostel B,06:00,19:00,20,50,Active
+R18,Central Library to Girls Hostel,Central Library|Science Complex|Boys Hostel B|Boys Hostel A|Back Gate|Girls Hostel,08:45,22:00,30,45,Delayed
+R19,Medical Centre to Research Park,Medical Centre|Girls Hostel|Research Park,08:00,21:00,25,20,Active
+R20,Canteen to Boys Hostel B,Canteen|Faculty Quarters|Metro Station|Science Complex|Central Library|Boys Hostel B,07:15,17:00,20,45,Delayed
+R21,Boys Hostel B to Engineering Block,Boys Hostel B|Main Gate|Science Complex|Bus Depot|Pharmacy Block|Girls Hostel|Research Park|Engineering Block,06:45,17:00,8,20,Active
+R22,Bus Depot to Auditorium,Bus Depot|Medical Centre|Pharmacy Block|Faculty Quarters|Auditorium,07:30,17:00,15,20,Active
+R23,Engineering Block to Pharmacy Block,Engineering Block|Back Gate|Auditorium|Central Library|Research Park|Canteen|Pharmacy Block,07:45,21:00,30,60,Delayed
+R24,Research Park to Engineering Block,Research Park|Boys Hostel A|Girls Hostel|Auditorium|Faculty Quarters|Canteen|Science Complex|Engineering Block,09:30,17:00,40,50,Active
+R25,Canteen to Science Complex,Canteen|Sports Complex|Auditorium|Research Park|Science Complex,09:00,21:00,25,60,Delayed
+R26,Medical Centre to Research Park,Medical Centre|Pharmacy Block|Faculty Quarters|Boys Hostel A|Back Gate|Sports Complex|Central Library|Research Park,09:45,17:00,8,20,Active
+R27,Engineering Block to Science Complex,Engineering Block|Bus Depot|Canteen|Sports Complex|Research Park|Boys Hostel B|Science Complex,06:00,22:00,40,30,Suspended
+R28,Canteen to Faculty Quarters,Canteen|Medical Centre|Research Park|Girls Hostel|Metro Station|Faculty Quarters,07:30,22:00,30,20,Active
+R29,Bus Depot to Admin Block,Bus Depot|Faculty Quarters|Student Activity Centre|Sports Complex|Boys Hostel B|Admin Block,06:45,22:00,15,30,Active
+R30,Sports Complex to Girls Hostel,Sports Complex|Back Gate|Science Complex|Girls Hostel,06:15,21:00,12,30,Suspended
+R31,Faculty Quarters to Pharmacy Block,Faculty Quarters|Parking Lot 2|Medical Centre|Girls Hostel|Central Library|Pharmacy Block,08:45,21:00,8,40,Active
+R32,Faculty Quarters to Boys Hostel A,Faculty Quarters|Sports Complex|Boys Hostel A,06:30,19:00,40,60,Active
+R33,Girls Hostel to Science Complex,Girls Hostel|Main Gate|Science Complex,07:30,19:00,30,40,Active
+R34,Student Activity Centre Express,Student Activity Centre|Girls Hostel|Engineering Block,07:30,17:00,30,20,Delayed
+R35,Canteen to Research Park,Canteen|Sports Complex|Research Park,08:45,22:00,20,60,Active
+R36,Bus Depot to Main Gate,Bus Depot|Science Complex|Sports Complex|Central Library|Medical Centre|Pharmacy Block|Main Gate,06:00,17:00,12,45,Active
+R37,Metro Station to Boys Hostel B,Metro Station|Canteen|Boys Hostel B,06:30,22:00,15,40,Active
+R38,Auditorium to Research Park,Auditorium|Boys Hostel B|Engineering Block|Medical Centre|Research Park,06:00,17:00,8,50,Active
+R39,Student Activity Centre Express,Student Activity Centre|Boys Hostel A|Faculty Quarters|Research Park|Central Library|Main Gate|Science Complex|Medical Centre,09:45,22:00,15,20,Active
+R40,Auditorium to Faculty Quarters,Auditorium|Science Complex|Faculty Quarters,08:00,17:00,10,20,Delayed
+R41,Science Complex to Bus Depot,Science Complex|Canteen|Engineering Block|Research Park|Girls Hostel|Medical Centre|Boys Hostel B|Bus Depot,09:30,17:00,12,40,Suspended
+R42,Boys Hostel B to Admin Block,Boys Hostel B|Sports Complex|Parking Lot 2|Science Complex|Main Gate|Engineering Block|Research Park|Admin Block,08:00,21:00,20,40,Active
